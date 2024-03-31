@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il mio primo ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <button onclick="changeTitle('Ecco il nuovo titolo')">Cambia titolo</button>
+    <button onclick="changeColorBackground('green')">Cambia colore al background</button>
+    <button onclick="changeAddress('Via Donizzetti 45, Milano')">Cambia l'indirizzo della pagina</button>
+  <button onclick="changeLinkStyle('myClass')">Cambia lo stile dei link</button>
+  <button onclick="changeImgClass('newImageClass')">Cambia la visibilità delle immagini</button>
+  <button onclick="changeColorPrice('blue')">Cambia il colore del prezzo</button>
+    <header>
+        <h1 id="titlePage">Negozio Online di Matteo</h1>
+    </header>
+    <div id="vetrina">
+        <div class="product">
+            <div class="containerImage">
+                <img src="/asset/smartwatch.jpg" alt="smartwatch">
+            </div>
+            <h2>Smartwatch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolores quaerat. Quos eum fugit hic maxime suscipit autem debitis illo et laudantium, optio, dignissimos saepe impedit nihil doloribus magni!</p>
+            <p class="price">37,99€</p>
+            <a href="https://www.amazon.it/BANLVS-Smartwatch-Cinturini-Contapassi-Impermeabile/dp/B0CFQ385D6?pf_rd_r=WXEG6P945MVQE8ACMS2R&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=625f4ee2-9c7d-4cb3-8da6-d5915b990e77&pf_rd_s=slot-14&ref=dlx_deals_gd_dcl_img_6_5326cd89_dt_sl14_77">
+                Scopri di più
+            </a>
+            <p>Inserisci un commento: <input type="text" class="commento" name="prova"></p>
+        </div>
+        <div class="product">
+            <div class="containerImage">
+                <img src="/asset/cavi.jpg" alt="cavi">
+            </div>
+            <h2>Cavi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolores quaerat. Quos eum fugit hic maxime suscipit autem debitis illo et laudantium, optio, dignissimos saepe impedit nihil doloribus magni!</p>
+            <p class="price">14,99€</p>
+            <a href="https://www.amazon.it/48Gbps-Certificato-Ufficialmente-Velocit%C3%A0-4k120Hz/dp/B08TGSSHP4/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_deals_sc_dcl_img_dt_dealz_rd&pd_rd_w=AtdMO&content-id=amzn1.sym.ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_p=ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_r=WXEG6P945MVQE8ACMS2R&pd_rd_wg=AjCK1&pd_rd_r=9857b978-8678-4d51-81c5-19c01e23a6ec">
+                Scopri di più
+            </a>
+            <p>Inserisci un commento: <input type="text" class="commento" name="prova"></p>
+        </div>
+        <div class="product">
+            <div class="containerImage">
+                <img src="/asset/cuscini.jpg" alt="cuscini">
+            </div>
+            <h2>Cuscini</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolores quaerat. Quos eum fugit hic maxime suscipit autem debitis illo et laudantium, optio, dignissimos saepe impedit nihil doloribus magni!</p>
+            <p class="price">13,99€</p>
+            <a href="https://www.amazon.it/MIULEE-Confezione-Velluto-Decorativa-Poliestere/dp/B07CM1WBKP/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_deals_sc_dcl_img_dt_dealz_rd&pd_rd_w=AtdMO&content-id=amzn1.sym.ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_p=ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_r=WXEG6P945MVQE8ACMS2R&pd_rd_wg=AjCK1&pd_rd_r=9857b978-8678-4d51-81c5-19c01e23a6ec">
+                Scopri di più
+            </a>
+            <p>Inserisci un commento: <input type="text" class="commento" name="prova"></p>
+        </div>
+        <div class="product">
+            <div class="containerImage">
+                <img src="/asset/switch.jpg" alt="switch">
+            </div>
+            <h2>Switch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolores quaerat. Quos eum fugit hic maxime suscipit autem debitis illo et laudantium, optio, dignissimos saepe impedit nihil doloribus magni!</p>
+            <p class="price">5,99€</p>
+            <a href="https://www.amazon.it/Sdoppiatore-Alluminio-Bidirezionale-Supporta-Splitter/dp/B09CTC55X6/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_deals_sc_dcl_img_dt_dealz_rd&pd_rd_w=AtdMO&content-id=amzn1.sym.ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_p=ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_r=WXEG6P945MVQE8ACMS2R&pd_rd_wg=AjCK1&pd_rd_r=9857b978-8678-4d51-81c5-19c01e23a6ec">
+                Scopri di più
+            </a>
+            <p>Inserisci un commento: <input type="text" class="commento" name="prova"></p>
+        </div>
+        <div class="product">
+            <div class="containerImage">
+                <img src="/asset/tv.jpg" alt="tv">
+            </div>
+            <h2>Tv</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolores quaerat. Quos eum fugit hic maxime suscipit autem debitis illo et laudantium, optio, dignissimos saepe impedit nihil doloribus magni!</p>
+            <p class="price">250€</p>
+            <a href="https://www.amazon.it/MSI-PRO-MP245V-Eye-Friendly-Inclinazione/dp/B0CGVB9FTB/?_encoding=UTF8&_encoding=UTF8&ref_=dlx_deals_sc_dcl_img_dt_dealz_rd&pd_rd_w=AtdMO&content-id=amzn1.sym.ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_p=ecffeff0-e2bc-437a-a118-7d09e6dae027&pf_rd_r=WXEG6P945MVQE8ACMS2R&pd_rd_wg=AjCK1&pd_rd_r=9857b978-8678-4d51-81c5-19c01e23a6ec">
+                Scopri di più
+            </a>
+            <p>Inserisci un commento: <input type="text" class="commento" name="prova"></p>
+        </div>
+    </div>
+    <footer>
+        <h2>Nome Negozio</h2>
+        <p id="footerAddress">Via Agostino Cesari 45, Palermo</p>
+    </footer>
+    <script type="javascript" src="s3p2-scaricabile.js"></script>
+</body>
+</html>

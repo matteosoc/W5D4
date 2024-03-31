@@ -1,0 +1,44 @@
+header {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    background-color: beige;
+}
+
+
+.containerImage {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.containerImage img {
+    width: 100%;
+}
+
+#vetrina {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product {
+    padding: 25px;
+    background-color: cornsilk;
+    margin: 20px;
+    width: 20%;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+
+.myClass {
+    background-color: red;
+}
+
+.newImageClass {
+    display: none;
+}
